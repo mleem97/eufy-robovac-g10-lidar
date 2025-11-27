@@ -395,6 +395,34 @@ The goal of this project is to **reuse existing hardware** and improve it throug
 
 ---
 
+## 🔗 Related Resources & Community Projects
+
+### Eufy Hacking Resources
+
+- **[Hacking my Eufy Robot Vac](https://maxdiamond.co.uk/blog/hacking-my-eufy-robot-vac)** by Max Diamond
+  - Detailed walkthrough on extracting Tuya local keys
+  - Uses `eufy-clean-local-key-grabber` Python package for key extraction
+  - Documents TuyAPI integration challenges
+
+- **[eufy-robovac](https://www.npmjs.com/package/eufy-robovac)** - Node.js library using TuyAPI for local Eufy control
+
+- **[Make-Eufy-Smart-Again](https://github.com/nakulbende/Make-Eufy-Smart-Again)** - ESP8266-based IR remote control via web interface
+
+- **[robovac-hack](https://github.com/msgageek/robovac-hack)** - DIY navigation modifications for Eufy 11 series
+
+### Key Technical Insights
+
+| Topic | Details |
+|-------|---------|
+| **Protocol** | Tuya-based communication |
+| **Required Keys** | Device ID + Local Key for local control |
+| **Key Extraction** | `eufy-clean-local-key-grabber` (Python) |
+| **Communication** | TuyAPI protocol over local network |
+
+> **Note:** While these resources target different Eufy models, the underlying Tuya architecture is similar across the product line and provides valuable insights for reverse engineering.
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.
