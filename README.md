@@ -1,4 +1,4 @@
-# 🤖 Eufy RoboVac G10 LIDAR Upgrade Project
+# 🤖 Eufy RoboVac G10 / G10 Hybrid Upgrade Project
 
 ![Status](https://img.shields.io/badge/Status-Research%20Phase-yellow)
 ![License](https://img.shields.io/badge/License-MIT-blue)
